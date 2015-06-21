@@ -1,0 +1,68 @@
+/* 
+    Document   : ie7
+    Created on : 5/01/2013, 3:45:17 PM
+    Author     : Pakage
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+div#full-nav {
+    float: left;
+    width: 100%;
+}
+
+div#main-container, div#sidebar-container {
+    margin-top: 0;
+}
+
+input.blue, input.blue:hover { 
+    border: none;
+}
+
+div#full-nav li a {
+    height: 36px;
+    cursor: pointer;
+}
+
+div.listing-main div.read-more {
+    margin-top: 20px;
+}
+
+div#ie7 {
+    display: block;
+    background-color: #4f9eea;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4f9eea, endColorstr=#1874cd);
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+}
+
+div#ie7 p {
+    margin: 5px 0;
+}
+
+div#ie7 a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.widget-title { color: #333}
+
+h1, h2, h3, h4, p, div.post-data, div.widget-title {
+    position: relative;
+}
+
+input#searchsubmit {
+    height: 16px;
+    padding-top: 0px;
+}
